@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://docs.timenet.ai/schemas/dataset-card-v1.schema.json
+yaml_schema_version: 1
+dataset_id: phmsociety/phm-2025-ehm
+dataset_version: 1.0.0
+name: PHM North America 2025 Engine Health Management
+description: >-
+  Engine sensor snapshot windows for estimating remaining cycles to an HPC water-wash,
+  HPC shop visit, and HPT shop visit. Four labeled training engines and 100 unlabeled
+  test/validation sequences are provided by the PHM Society.
+license: NONE
+source_url: https://data.phmsociety.org/phm-north-america-2025-conference-data-challenge/
+access: open
+domains:
+  - industrial
+tags:
+  - engine-health
+  - predictive-maintenance
+  - time-series
+  - regression
